@@ -1,3 +1,5 @@
+import './globals.css';
+
 export default function Home() {
   return (
     <section className="p-10 text-center">

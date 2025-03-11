@@ -1,4 +1,4 @@
-import '../globals.css'; // Ajuste o caminho se seus estilos estiverem em outro lugar
+import './globals.css';
 import Header from '@/components/header/Header';
 import type { Metadata } from 'next';
 
