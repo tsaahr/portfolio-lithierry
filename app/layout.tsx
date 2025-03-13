@@ -11,16 +11,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <body className="relative min-h-screen text-white">
-        {/* Background com overlay escuro */}
+        {/* Background fixo com overlay escuro */}
         <div
-          className="absolute inset-0 z-0 bg-cover bg-center"
+          className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
           style={{
             backgroundImage: "url('/images/background.jpeg')",
             filter: 'brightness(0.3)',
           }}
         />
 
-        {/* Camada de conteúdo por cima */}
         <div className="relative z-10">
           <Header />
           <main className="min-h-screen">{children}</main>

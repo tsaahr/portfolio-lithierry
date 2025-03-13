@@ -1,7 +1,18 @@
 'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
+  const pathname = usePathname()
+
+  const navItems = [
+    { label: 'Home', href: '/' },
+    { label: 'Projects', href: '/projects' },
+    { label: 'About', href: '/about' },
+    { label: 'Contact', href: '/contact' },
+  ]
+
   return (
     <header className="w-full fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
@@ -12,13 +23,22 @@ export default function Header() {
 
         {/* Navegação */}
         <nav className="space-x-6">
-          <Link href="/" className="text-white hover:text-purple-400 transition">Início</Link>
-          <Link href="#projects" className="text-white hover:text-purple-400 transition">Projetos</Link>
-          <Link href="#about" className="text-white hover:text-purple-400 transition">Sobre</Link>
-          <Link href="#contact" className="text-white hover:text-purple-400 transition">Contato</Link>
+          {navItems.map(({ label, href }) => {
+            const isActive = pathname === href
+            return (
+              <Link
+                key={href}
+                href={href}
+                className={`transition ${
+                  isActive ? 'text-purple-400 font-semibold' : 'text-white hover:text-purple-400'
+                }`}
+              >
+                {label}
+              </Link>
+            )
+          })}
         </nav>
       </div>
     </header>
   )
 }
-
