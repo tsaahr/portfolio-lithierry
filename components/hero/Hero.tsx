@@ -14,12 +14,12 @@ export default function Hero() {
         </h1>
         <h3 className="text-xl md:text-2xl">
           <Typewriter
-            words={['Salesforce Developer', 'Frontend Dev']}
+            words={['Salesforce Developer', 'Fullstack Developer']}
             loop
             cursor
             cursorStyle="|"
-            typeSpeed={70}
-            deleteSpeed={50}
+            typeSpeed={100}
+            deleteSpeed={100}
             delaySpeed={2000}
           />
         </h3>
@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Direita */}
       <div className="flex-1 mt-10 md:mt-0">
         <Image
-          src="/assets/dev.svg"
+          src="/images/dev.png"
           alt="Developer illustration"
           width={500}
           height={500}
