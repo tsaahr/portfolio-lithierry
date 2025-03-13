@@ -1,5 +1,6 @@
 import './globals.css';
 import Header from '@/components/header/Header';
+import Footer from '@/components/footer/Footer';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="relative z-10">
           <Header />
           <main className="min-h-screen">{children}</main>
+          <Footer/>
         </div>
       </body>
     </html>
