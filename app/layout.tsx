@@ -10,9 +10,21 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="bg-white text-gray-800">
-        <Header />
-        <main className="min-h-screen">{children}</main>
+      <body className="relative min-h-screen text-white">
+        {/* Background com overlay escuro */}
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/background.jpeg')",
+            filter: 'brightness(0.3)',
+          }}
+        />
+
+        {/* Camada de conteúdo por cima */}
+        <div className="relative z-10">
+          <Header />
+          <main className="min-h-screen">{children}</main>
+        </div>
       </body>
     </html>
   );
