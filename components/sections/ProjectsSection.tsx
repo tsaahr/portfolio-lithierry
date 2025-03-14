@@ -34,16 +34,19 @@ export default function ProjectsSection() {
   const projects = activeTab === 'salesforce' ? salesforceProjects : fullstackProjects
 
   return (
-    <section id="projects" className="w-full py-16 px-6 md:px-12 bg-white/90 backdrop-blur-sm">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-purple-700">Projects</h2>
+    <section
+      id="projects"
+      className="w-full py-16 px-6 md:px-12 bg-black/40 backdrop-blur-md rounded-xl"
+    >
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-purple-400">Projects</h2>
 
       <div className="flex justify-center space-x-4 mb-8">
         <button
           onClick={() => setActiveTab('salesforce')}
           className={`px-4 py-2 rounded-md font-semibold transition ${
             activeTab === 'salesforce'
-              ? 'bg-purple-700 text-white'
-              : 'bg-gray-200 hover:bg-gray-300 text-gray-800'
+              ? 'bg-purple-600 text-white'
+              : 'bg-zinc-800 hover:bg-zinc-700 text-white'
           }`}
         >
           Salesforce
@@ -52,8 +55,8 @@ export default function ProjectsSection() {
           onClick={() => setActiveTab('fullstack')}
           className={`px-4 py-2 rounded-md font-semibold transition ${
             activeTab === 'fullstack'
-              ? 'bg-purple-700 text-white'
-              : 'bg-gray-200 hover:bg-gray-300 text-gray-800'
+              ? 'bg-purple-600 text-white'
+              : 'bg-zinc-800 hover:bg-zinc-700 text-white'
           }`}
         >
           Fullstack
@@ -64,14 +67,14 @@ export default function ProjectsSection() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="p-6 rounded-xl shadow-md bg-white hover:shadow-lg transition border border-gray-200"
+            className="p-6 rounded-xl bg-zinc-900/60 border border-zinc-700 hover:shadow-lg transition"
           >
-            <h3 className="text-xl font-bold text-purple-700">{project.title}</h3>
-            <p className="text-gray-700 mt-2">{project.description}</p>
+            <h3 className="text-xl font-bold text-purple-300">{project.title}</h3>
+            <p className="text-zinc-200 mt-2">{project.description}</p>
             <a
               href={project.link}
               target="_blank"
-              className="text-purple-500 hover:underline mt-3 inline-block"
+              className="text-purple-400 hover:underline mt-3 inline-block"
             >
               View Project →
             </a>

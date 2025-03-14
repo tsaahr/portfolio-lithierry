@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="relative min-h-screen text-white">
+      <body className="relative min-h-screen text-white pt-16">
         {/* Background fixo com overlay escuro */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
