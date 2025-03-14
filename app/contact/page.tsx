@@ -29,7 +29,7 @@ export default function ContactSection() {
     }
   }
 
-  const whatsappLink = `https://wa.me/5592984364714?text=Hi%20Lithierry%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk!`
+  const whatsappLink = `https://wa.me/5553991799058?text=Ol%C3%A1,%20Lithierry!%20Vi%20seu%20portf%C3%B3lio%20e%20me%20interessei%20pelo%20seu%20trabalho.%20`
 
   return (
     <section
