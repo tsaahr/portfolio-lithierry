@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white">
+    <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 text-white">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-2xl md:text-3xl mb-2">Hi There! 👋</h2>
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
