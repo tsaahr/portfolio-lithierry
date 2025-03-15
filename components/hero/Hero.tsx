@@ -13,7 +13,7 @@ export default function Hero() {
         </h1>
         <h3 className="text-xl md:text-2xl">
           <Typewriter
-            words={['Salesforce Developer', 'Fullstack Developer']}
+            words={['Aspiring Salesforce Developer', 'Fullstack Developer']}
             loop
             cursor
             cursorStyle="|"
