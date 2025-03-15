@@ -4,16 +4,10 @@ import { useState } from 'react'
 
 const salesforceProjects = [
   {
-    title: 'Salesforce Flow Automation',
-    description: 'Automated a business process using Salesforce Flow and Apex triggers.',
+    title: 'Salesforce Project',
+    description: 'Coming soon.',
     link: '#',
-    details: 'This project automates lead assignment using Salesforce Flow and Apex triggers. It includes conditional logic, email alerts, and process monitoring.'
-  },
-  {
-    title: 'Lead Management LWC',
-    description: 'Created a custom Lightning Web Component to manage leads more efficiently.',
-    link: '#',
-    details: 'Built a responsive Lightning Web Component to handle lead creation, filtering, and assignment within Salesforce UI.'
+    details: 'A project showcasing my Salesforce skills is on the way. Stay tuned!'
   }
 ]
 
@@ -23,18 +17,12 @@ const fullstackProjects = [
     description: 'E-commerce project built with Next.js, TailwindCSS, TypeScript, and Supabase.',
     link: 'https://loja-e-lar.vercel.app/',
     details: 'Full-stack e-commerce with Next.js and Supabase. Includes user auth and basic layout. Admin panel and cart features are under development.'
-  },
-  {
-    title: 'Portfolio Site',
-    description: 'Responsive personal portfolio built with Next.js and TailwindCSS.',
-    link: '#',
-    details: 'My portfolio shows projects, about me, and has a contact form with email and WhatsApp integration.'
   }
 ]
 
 export default function ProjectsSection() {
-  const [activeTab, setActiveTab] = useState<'salesforce' | 'fullstack'>('salesforce')
-  const [selectedProject, setSelectedProject] = useState<null | typeof salesforceProjects[0]>(null)
+  const [activeTab, setActiveTab] = useState<'salesforce' | 'fullstack'>('fullstack')
+  const [selectedProject, setSelectedProject] = useState<null | typeof fullstackProjects[0]>(null)
 
   const projects = activeTab === 'salesforce' ? salesforceProjects : fullstackProjects
 
@@ -44,16 +32,6 @@ export default function ProjectsSection() {
 
       <div className="flex justify-center space-x-4 mb-8">
         <button
-          onClick={() => setActiveTab('salesforce')}
-          className={`px-4 py-2 rounded-md font-semibold transition ${
-            activeTab === 'salesforce'
-              ? 'bg-purple-700 text-white'
-              : 'bg-gray-700 hover:bg-gray-600 text-gray-300'
-          }`}
-        >
-          Salesforce
-        </button>
-        <button
           onClick={() => setActiveTab('fullstack')}
           className={`px-4 py-2 rounded-md font-semibold transition ${
             activeTab === 'fullstack'
@@ -62,6 +40,16 @@ export default function ProjectsSection() {
           }`}
         >
           Fullstack
+        </button>
+        <button
+          onClick={() => setActiveTab('salesforce')}
+          className={`px-4 py-2 rounded-md font-semibold transition ${
+            activeTab === 'salesforce'
+              ? 'bg-purple-700 text-white'
+              : 'bg-gray-700 hover:bg-gray-600 text-gray-300'
+          }`}
+        >
+          Salesforce
         </button>
       </div>
 
