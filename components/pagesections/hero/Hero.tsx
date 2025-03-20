@@ -6,8 +6,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 text-white gap-8 overflow-hidden">
-      {/* Texto */}
+    <section className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-16 text-white gap-8">
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h2 className="text-2xl md:text-3xl mb-2">Hi there! 👋</h2>
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

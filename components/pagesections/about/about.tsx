@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <section
       id="about"
-      className="h-screen flex items-center justify-center px-4 text-zinc-100"
+      className="min-h-screen flex items-center justify-center px-4 py-16 text-zinc-100"
     >
       <div className="max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">

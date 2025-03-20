@@ -10,27 +10,27 @@ import ContactSection from "@/components/pagesections/contact/contact"
 export default function HomePage() {
   return (
     <>
-      <section id="home" className="h-screen snap-start">
+      <section id="home">
         <Hero />
       </section>
 
-      <section id="projects" className="h-screen snap-start">
+      <section id="projects">
         <Projects />
       </section>
 
-      <section id="services" className="h-screen snap-start">
+      <section id="services">
         <Services />
       </section>
 
-      <section id="skills" className="h-screen snap-start">
+      <section id="skills">
         <Skills />
       </section>
 
-      <section id="about" className="min-h-screen snap-start">
+      <section id="about">
         <AboutPage />
       </section>
 
-      <section id="contact" className="min-h-screen snap-start">
+      <section id="contact">
         <ContactSection />
       </section>
     </>
