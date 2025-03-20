@@ -38,9 +38,7 @@ const services = [
 export default function Services() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-6 py-16 text-white">
-      <h2 className="text-4xl font-bold mb-12 text-center">
-        What I Can Do For You
-      </h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">What i can do for you</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
         {services.map((service, index) => (
           <div

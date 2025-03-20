@@ -19,7 +19,7 @@ const hardSkills = [
 export default function Skills() {
   return (
     <section className="min-h-screen text-white flex flex-col items-center justify-center py-16 px-6">
-      <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">Skills</h2>
       <p className="text-zinc-400 text-center mb-12 max-w-xl">
         A combination of technical knowledge and interpersonal strengths that allow me to create, communicate, and collaborate effectively.
       </p>

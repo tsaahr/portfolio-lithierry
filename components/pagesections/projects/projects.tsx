@@ -18,7 +18,7 @@ const projects = [
 export default function Projects() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center px-6 py-20 text-white">
-      <h2 className="text-4xl font-bold mb-12 border-b-2 border-indigo-500 inline-block">Projects</h2>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">Projects</h2>
 
       <div className="grid gap-8 md:grid-cols-2 w-full max-w-5xl">
         {projects.map((project) => (

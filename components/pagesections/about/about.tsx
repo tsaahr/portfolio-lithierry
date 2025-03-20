@@ -4,9 +4,7 @@ import React from "react";
 export default function AboutPage() {
   return (
     <section id="about" className="max-w-4xl mx-auto px-4 py-16 text-zinc-100">
-      <h1 className="text-4xl font-bold mb-6 border-b-2 border-indigo-500 inline-block">
-        About Me
-      </h1>
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">About</h2>
 
       <p className="text-lg mb-6 leading-relaxed">
         From a young age, I’ve always been curious about how things work. That curiosity has
