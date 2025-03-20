@@ -1,6 +1,5 @@
 import './globals.css';
 import Header from '@/components/header/Header';
-import Footer from '@/components/footer/Footer';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,10 +10,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className="relative min-h-screen text-white pt-16">
+      <body className="relative min-h-screen text-white pt-16 overflow-x-hidden">
         {/* Background fixo com overlay escuro */}
         <div
-          className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
+          className="fixed inset-0 z-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('/images/background.jpeg')",
             filter: 'brightness(0.3)',
@@ -23,8 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <div className="relative z-10">
           <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer/>
+          <main>{children}</main>
         </div>
       </body>
     </html>
