@@ -3,43 +3,41 @@
 export default function AboutPage() {
   return (
     <section className="max-w-4xl mx-auto px-4 py-16 text-white">
-      <h1 className="text-4xl font-bold mb-6 border-b-2 border-indigo-500 inline-block">About Me</h1>
+      <h1 className="text-4xl font-bold mb-6 border-b-2 border-indigo-500 inline-block">
+        About Me
+      </h1>
 
       <p className="text-lg mb-6 leading-relaxed">
-        Hi! I’m <strong>Lithierry da Silva Pereira</strong>, a 25-year-old Brazilian full-stack developer from Rio Grande, RS. I’m passionate about transforming ideas into efficient and scalable digital solutions.
+        From a young age, I’ve always been curious about how things work. That curiosity has
+        followed me throughout life and eventually led me to discover my place in technology.
       </p>
 
       <p className="text-lg mb-6 leading-relaxed">
-        I’m currently pursuing a degree in <strong>Systems Analysis and Development</strong> while diving deep into the Salesforce ecosystem — focusing on <strong>Apex</strong>, <strong>Lightning Web Components (LWC)</strong>, and process automation. On Trailhead, I’ve earned over 14,650 points, reflecting my commitment to continuous learning.
+        I started learning programming on my own — experimenting, breaking things, and rebuilding.
+        Even though I haven't worked professionally yet, I’ve already participated in real projects,
+        like developing a full e-commerce platform and collaborating on websites for others. For me,
+        each line of code is a way to bring ideas to life and solve real problems creatively.
       </p>
-
-      <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2 text-indigo-400">🛠️ Technical Skills:</h2>
-        <ul className="list-disc list-inside space-y-1 text-lg">
-          <li><strong>Front-end:</strong> Next.js, React, TypeScript, Tailwind CSS</li>
-          <li><strong>Back-end & Database:</strong> Supabase, RESTful APIs, Node.js</li>
-          <li><strong>Salesforce:</strong> Apex, Flow Automation, LWC (in progress)</li>
-          <li><strong>Tools & Practices:</strong> Git, Agile (SCRUM), API Integrations</li>
-        </ul>
-      </div>
 
       <p className="text-lg mb-6 leading-relaxed">
-        I’m a curious and determined problem-solver who loves building, automating, and bringing ideas to life. While I’m currently looking for my first professional opportunity in tech, I already have hands-on experience through personal projects and I’m eager to grow, contribute, and keep evolving.
+        I’m driven by purpose and see tech as a tool to positively impact lives. I love the freedom
+        of creating from scratch, learning something new every day, and constantly evolving.
       </p>
 
-      <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2 text-indigo-400">🌍 Availability:</h2>
-        <p className="text-lg leading-relaxed">
-          Open to remote or freelance roles, with availability for international projects. I also plan to move to Ireland soon for a study and work experience.
-        </p>
-      </div>
+      <p className="text-lg mb-6 leading-relaxed">
+        I’m currently studying <strong>Systems Analysis and Development</strong> and diving deeper
+        into web development with <strong>React/Next.js</strong>, while also exploring the
+        Salesforce ecosystem. I balance my routine between studies, work, personal projects, and
+        preparing for an exchange experience in Ireland — where I hope to grow both personally and
+        professionally.
+      </p>
 
-      <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2 text-indigo-400">🌐 Languages:</h2>
-        <p className="text-lg leading-relaxed">
-          Native Portuguese speaker | English: Intermediate (reading), beginner in writing and listening — currently improving my communication through daily practice.
-        </p>
-      </div>
+      <p className="text-lg mb-6 leading-relaxed">
+        I'm actively looking for my first opportunity in tech — ready to learn, collaborate, and
+        deliver with responsibility. I believe that more than just mastering tools, what truly
+        matters is the will to grow, the ability to communicate, and the openness to build things
+        together.
+      </p>
 
       <p className="text-lg leading-relaxed mt-6">
         If you’re looking for a developer with clean code, adaptability, and a growth mindset —{' '}
