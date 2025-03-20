@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",                     // 👈 Adicionado aqui
+    "baseUrl": ".", // 👈 Adicionado aqui
     "paths": {
       "@/*": ["./*"]
     },
@@ -23,6 +23,12 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/hero"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/forpage/hero"
+  ],
   "exclude": ["node_modules"]
 }
