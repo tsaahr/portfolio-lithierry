@@ -1,8 +1,9 @@
 'use client';
+import React from "react";
 
 export default function AboutPage() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-16 text-white">
+    <section id="about" className="max-w-4xl mx-auto px-4 py-16 text-zinc-100">
       <h1 className="text-4xl font-bold mb-6 border-b-2 border-indigo-500 inline-block">
         About Me
       </h1>
@@ -40,15 +41,7 @@ export default function AboutPage() {
       </p>
 
       <p className="text-lg leading-relaxed mt-6">
-        If you’re looking for a developer with clean code, adaptability, and a growth mindset —{' '}
-        <a
-          href="https://wa.me/5553991799058?text=Ol%C3%A1,%20Lithierry!%20Vi%20seu%20portf%C3%B3lio%20e%20me%20interessei%20pelo%20seu%20trabalho."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-indigo-400 font-semibold underline hover:text-indigo-300 transition-colors"
-        >
-          let’s connect!
-        </a>
+        If you’re looking for a developer with clean code, adaptability, and a growth mindset — I’d love to connect and be part of your journey. Let’s build something meaningful together.
       </p>
     </section>
   );
