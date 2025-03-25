@@ -10,29 +10,34 @@ import ContactSection from "@/components/pagesections/contact/contact"
 export default function HomePage() {
   return (
     <>
-      <section id="home">
+      <section id="home" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Hero />
+        <div className="separator" />
       </section>
 
-      <section id="projects">
+      <section id="projects" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Projects />
+        <div className="separator" />
       </section>
 
-      <section id="services">
+      <section id="services" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Services />
+        <div className="separator" />
       </section>
 
-      <section id="skills">
+      <section id="skills" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Skills />
+        <div className="separator" />
       </section>
 
-      <section id="about">
+      <section id="about" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <AboutPage />
+        <div className="separator" />
       </section>
 
-      <section id="contact">
+      <section id="contact" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <ContactSection />
       </section>
     </>
-  )
+  );
 }

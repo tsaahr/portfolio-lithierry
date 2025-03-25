@@ -13,6 +13,11 @@ const projects = [
     url: 'https://gaveta-de-mulher.vercel.app',
     description: 'Collaborative project using Next.js and Tailwind CSS.',
   },
+  {
+    title: 'Sabor e Arte',
+    url: 'https://sabor-e-arte-mauve.vercel.app',
+    description: 'Restaurant website built with Next.js and Tailwind CSS.',
+  },
 ]
 
 export default function Projects() {
@@ -26,10 +31,12 @@ export default function Projects() {
             key={project.title}
             href={project.url}
             target="_blank"
-            className="p-6 rounded-2xl bg-gray-800 hover:bg-gray-700 transition-colors shadow-md"
+            className="p-6 rounded-2xl bg-gray-800 hover:bg-gray-700 transition-colors shadow-md flex flex-col"
           >
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">{project.title}</h3>
-            <p className="text-lg text-gray-300">{project.description}</p>
+            <p className="text-lg text-gray-300 line-clamp-2 h-[3.5rem]">
+              {project.description}
+            </p>
           </Link>
         ))}
       </div>

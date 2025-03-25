@@ -8,3 +8,11 @@ html {
     overflow-y: scroll;
   }
   
+.separator {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #9333ea, transparent);
+    margin: 40px 0;
+    border-radius: 999px;
+  }
+  
