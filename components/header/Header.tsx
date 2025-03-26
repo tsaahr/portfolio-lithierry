@@ -40,13 +40,13 @@ export default function Header() {
           className="flex items-center gap-2 text-white text-sm font-medium border px-3 py-1 rounded-md absolute left-1/2 transform -translate-x-1/2 hover:bg-white/20 transition"
         >
           <span className="w-5 h-5">
-            {lang === "pt" ? (
+            {lang === "en" ? (
               <img src="/images/flags/eua.webp" alt="English" className="w-full h-full" />
             ) : (
               <img src="/images/flags/br.webp" alt="Português" className="w-full h-full" />
             )}
           </span>
-          {lang === "pt" ? "EN" : "PT"}
+          {lang === "pt" ? "PT" : "EN"}
         </button>
 
 

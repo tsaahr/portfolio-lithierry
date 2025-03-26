@@ -1,3 +1,4 @@
+'use client';
 import { useState, useEffect } from "react";
 import pt from "@/locales/pt.json";
 import en from "@/locales/en.json";
