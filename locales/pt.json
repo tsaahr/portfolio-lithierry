@@ -1,0 +1,17 @@
+{
+    "menu": {
+      "inicio": "Início",
+      "projetos": "Projetos",
+      "servicos": "Serviços",
+      "habilidades": "Habilidades",
+      "sobre": "Sobre",
+      "contato": "Contato"
+    },
+    "hero": {
+      "greeting": "Olá!",
+      "intro": "Eu sou",
+      "fullstack": "Desenvolvedor Full-stack",
+      "button": "Vamos Conversar",
+      "imageAlt": "Ilustração de desenvolvedor"
+    }
+  }

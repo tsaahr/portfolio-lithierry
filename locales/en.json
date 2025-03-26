@@ -1,0 +1,18 @@
+{
+    "menu": {
+      "inicio": "Home",
+      "projetos": "Projects",
+      "servicos": "Services",
+      "habilidades": "Skills",
+      "sobre": "About",
+      "contato": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi there!",
+      "intro": "I'm",
+      "fullstack": "Developer Full-stack",
+      "button": "Let's Connect",
+      "imageAlt": "Developer illustration"
+    }
+  }
+  
