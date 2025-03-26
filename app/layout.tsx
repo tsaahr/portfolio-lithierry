@@ -5,6 +5,12 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Portfólio | Lithierry.dev',
   description: 'Portfólio pessoal do Lithierry, desenvolvedor front-end com foco em Next.js, TypeScript e TailwindCSS.',
+  openGraph: {
+    type: 'website',
+    url: 'https://portfolio-lithierry.vercel.app',
+    title: 'Portfólio | Lithierry.dev',
+    description: 'Desenvolvedor front-end especializado em Next.js, TypeScript e TailwindCSS.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

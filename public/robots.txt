@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seusite.com.br/sitemap.xml
