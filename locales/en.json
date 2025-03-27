@@ -85,5 +85,18 @@
   "about": {
     "title": "About",
     "text": "From a young age, I’ve always been curious about how things work. That curiosity has followed me throughout life and eventually led me to discover my place in technology.\n\nI started learning programming on my own — experimenting, breaking things, and rebuilding. Even though I haven't worked professionally yet, I’ve already participated in real projects, like developing a full e-commerce platform and collaborating on websites for others. For me, each line of code is a way to bring ideas to life and solve real problems creatively.\n\nI’m driven by purpose and see tech as a tool to positively impact lives. I love the freedom of creating from scratch, learning something new every day, and constantly evolving.\n\nI’m currently studying Systems Analysis and Development and diving deeper into web development with React/Next.js, while also exploring the Salesforce ecosystem. I balance my routine between studies, work, personal projects, and preparing for an exchange experience in Ireland — where I hope to grow both personally and professionally.\n\nI'm actively looking for my first opportunity in tech — ready to learn, collaborate, and deliver with responsibility. I believe that more than just mastering tools, what truly matters is the will to grow, the ability to communicate, and the openness to build things together.\n\nIf you’re looking for a developer with clean code, adaptability, and a growth mindset — I’d love to connect and be part of your journey. Let’s build something meaningful together."
+  },
+  "contact": {
+    "title": "Contact",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "sendButton": "Send Email",
+    "sending": "Sending...",
+    "success": "Message sent!",
+    "error": "Something went wrong. Please try again.",
+    "whatsappPrompt": "Prefer WhatsApp?",
+    "whatsappButton": "Talk via WhatsApp",
+    "whatsappText": "Hello, Lithierry! I saw your portfolio and I'm interested in your work."
   }
 }

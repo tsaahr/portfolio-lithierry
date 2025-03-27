@@ -85,5 +85,18 @@
   "about": {
     "title": "Sobre",
     "text": "Desde pequeno, sempre fui curioso sobre como as coisas funcionam. Essa curiosidade me acompanhou ao longo da vida e, eventualmente, me levou a descobrir meu lugar na tecnologia.\n\nComecei a aprender programação por conta própria — experimentando, quebrando coisas e reconstruindo. Mesmo sem experiência profissional ainda, já participei de projetos reais, como o desenvolvimento de uma plataforma completa de e-commerce e a colaboração em sites para outras pessoas. Para mim, cada linha de código é uma forma de dar vida a ideias e resolver problemas reais de maneira criativa.\n\nSou movido por propósito e vejo a tecnologia como uma ferramenta para impactar vidas positivamente. Amo a liberdade de criar do zero, aprender algo novo todos os dias e estar em constante evolução.\n\nAtualmente, estou cursando Análise e Desenvolvimento de Sistemas e me aprofundando no desenvolvimento web com React/Next.js, além de explorar o ecossistema Salesforce. Equilibro minha rotina entre estudos, trabalho, projetos pessoais e a preparação para uma experiência de intercâmbio na Irlanda — onde espero crescer tanto pessoal quanto profissionalmente.\n\nEstou ativamente buscando minha primeira oportunidade na área de tecnologia — pronto para aprender, colaborar e entregar com responsabilidade. Acredito que, mais do que apenas dominar ferramentas, o que realmente importa é a vontade de crescer, a capacidade de se comunicar e a abertura para construir coisas juntos.\n\nSe você está procurando um desenvolvedor com código limpo, adaptabilidade e mentalidade de crescimento — adoraria me conectar e fazer parte da sua jornada. Vamos construir algo significativo juntos."
+  },
+  "contact": {
+    "title": "Contato",
+    "namePlaceholder": "Seu nome",
+    "emailPlaceholder": "Seu e-mail",
+    "messagePlaceholder": "Sua mensagem",
+    "sendButton": "Enviar e-mail",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada!",
+    "error": "Algo deu errado. Tente novamente.",
+    "whatsappPrompt": "Prefere o WhatsApp?",
+    "whatsappButton": "Falar via WhatsApp",
+    "whatsappText": "Olá, Lithierry! Vi seu portfólio e me interessei pelo seu trabalho."
   }
 }
