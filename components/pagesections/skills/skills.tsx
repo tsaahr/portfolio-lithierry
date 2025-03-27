@@ -1,10 +1,10 @@
 'use client';
 
 import { Lightbulb, Users, Brain, Code, Server, Palette } from 'lucide-react';
-import { useLanguage } from '@/context/LanguageContext'; // Importando o useLanguage
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Skills() {
-  const { t, lang } = useLanguage(); // Obtendo as traduções do contexto
+  const { t, lang } = useLanguage();
 
   const softSkills = [
     { icon: <Lightbulb className="w-6 h-6 text-yellow-400" />, title: t.skills.softSkills.list[0] },

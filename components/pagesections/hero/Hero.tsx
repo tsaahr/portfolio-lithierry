@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useLanguage } from "@/context/LanguageContext"; // <-- Agora usa o contexto global
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Hero() {
   const { t, lang } = useLanguage();

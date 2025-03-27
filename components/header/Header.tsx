@@ -7,7 +7,7 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const { lang, changeLanguage, t } = useLanguage(); // <-- Agora usa o contexto global
+  const { lang, changeLanguage, t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);

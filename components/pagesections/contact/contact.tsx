@@ -1,10 +1,10 @@
 'use client';
 import React, { useState } from 'react'
 import { Mail, Send, Linkedin, Github, Globe, MessageCircle } from 'lucide-react'
-import { useLanguage } from "@/context/LanguageContext"; // Importando o contexto de idioma
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function ContactSection() {
-  const { t, lang } = useLanguage(); // Pegando traduções do contexto
+  const { t, lang } = useLanguage();
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [status, setStatus] = useState('')
 
@@ -34,7 +34,7 @@ export default function ContactSection() {
 
   return (
     <section
-      key={lang} // Garante atualização ao mudar idioma
+      key={lang}
       id="contact"
       className="h-screen snap-start flex justify-center items-center px-4 text-zinc-100"
     >

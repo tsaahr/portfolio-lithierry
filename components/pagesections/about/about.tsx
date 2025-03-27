@@ -4,11 +4,11 @@ import React from "react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function AboutPage() {
-  const { t, lang } = useLanguage(); // Pegando traduções do contexto
+  const { t, lang } = useLanguage();
 
   return (
     <section
-      key={lang} // Força atualização ao trocar idioma
+      key={lang}
       id="about"
       className="min-h-screen flex items-center justify-center px-6 py-20 text-zinc-100"
     >

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function Projects() {
-  const { t, lang } = useLanguage(); // Pegando o idioma e a função de tradução
+  const { t, lang } = useLanguage();
 
   const projects = [
     {
