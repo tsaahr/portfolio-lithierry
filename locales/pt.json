@@ -1,17 +1,89 @@
 {
-    "menu": {
-      "inicio": "Início",
-      "projetos": "Projetos",
-      "servicos": "Serviços",
-      "habilidades": "Habilidades",
-      "sobre": "Sobre",
-      "contato": "Contato"
+  "menu": {
+    "inicio": "Início",
+    "projetos": "Projetos",
+    "servicos": "Serviços",
+    "habilidades": "Habilidades",
+    "sobre": "Sobre",
+    "contato": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá!",
+    "intro": "Eu sou",
+    "fullstack": "Desenvolvedor Full-stack",
+    "button": "Vamos Conversar",
+    "imageAlt": "Ilustração de desenvolvedor"
+  },
+  "projects": {
+    "title": "Projetos",
+    "list": [
+      {
+        "title": "Loja e Lar",
+        "description": "E-commerce pessoal construído com Next.js, Tailwind CSS, Supabase e TypeScript."
+      },
+      {
+        "title": "Gaveta de Mulher",
+        "description": "Projeto colaborativo usando Next.js e Tailwind CSS."
+      },
+      {
+        "title": "Sabor e Arte",
+        "description": "Site de restaurante desenvolvido com Next.js e Tailwind CSS."
+      }
+    ]
+  },
+  "services": {
+    "title": "O que posso fazer por você",
+    "list": [
+      {
+        "title": "Landing Pages Personalizadas",
+        "description": "Designs únicos focados em conversão e identidade visual forte."
+      },
+      {
+        "title": "Sites Empresariais",
+        "description": "Presença online completa para empresas, negócios locais e freelancers."
+      },
+      {
+        "title": "Portfólios Profissionais",
+        "description": "Portfólios modernos para exibir seus projetos e habilidades de forma eficaz."
+      },
+      {
+        "title": "Blogs & Páginas de Conteúdo",
+        "description": "Templates otimizados para publicação de artigos, notícias e muito mais."
+      },
+      {
+        "title": "Responsivo & Alta Performance",
+        "description": "Sites que funcionam perfeitamente em todos os dispositivos e com carregamento rápido."
+      },
+      {
+        "title": "Integração de Formulários",
+        "description": "Conecte formulários de contato ao e-mail, WhatsApp ou serviços terceiros."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Uma combinação de conhecimento técnico e habilidades interpessoais que me permitem criar, comunicar e colaborar de forma eficaz.",
+    "softSkills": {
+      "title": "Soft Skills",
+      "list": [
+        "Pensamento Criativo",
+        "Colaboração em Equipe",
+        "Resolução de Problemas",
+        "Adaptabilidade"
+      ]
     },
-    "hero": {
-      "greeting": "Olá!",
-      "intro": "Eu sou",
-      "fullstack": "Desenvolvedor Full-stack",
-      "button": "Vamos Conversar",
-      "imageAlt": "Ilustração de desenvolvedor"
+    "hardSkills": {
+      "title": "Hard Skills",
+      "list": [
+        "JavaScript / TypeScript",
+        "Tailwind CSS / UI Design",
+        "React / Next.js",
+        "Supabase / PostgreSQL"
+      ]
     }
+  },
+  "about": {
+    "title": "Sobre",
+    "text": "Desde pequeno, sempre fui curioso sobre como as coisas funcionam. Essa curiosidade me acompanhou ao longo da vida e, eventualmente, me levou a descobrir meu lugar na tecnologia.\n\nComecei a aprender programação por conta própria — experimentando, quebrando coisas e reconstruindo. Mesmo sem experiência profissional ainda, já participei de projetos reais, como o desenvolvimento de uma plataforma completa de e-commerce e a colaboração em sites para outras pessoas. Para mim, cada linha de código é uma forma de dar vida a ideias e resolver problemas reais de maneira criativa.\n\nSou movido por propósito e vejo a tecnologia como uma ferramenta para impactar vidas positivamente. Amo a liberdade de criar do zero, aprender algo novo todos os dias e estar em constante evolução.\n\nAtualmente, estou cursando Análise e Desenvolvimento de Sistemas e me aprofundando no desenvolvimento web com React/Next.js, além de explorar o ecossistema Salesforce. Equilibro minha rotina entre estudos, trabalho, projetos pessoais e a preparação para uma experiência de intercâmbio na Irlanda — onde espero crescer tanto pessoal quanto profissionalmente.\n\nEstou ativamente buscando minha primeira oportunidade na área de tecnologia — pronto para aprender, colaborar e entregar com responsabilidade. Acredito que, mais do que apenas dominar ferramentas, o que realmente importa é a vontade de crescer, a capacidade de se comunicar e a abertura para construir coisas juntos.\n\nSe você está procurando um desenvolvedor com código limpo, adaptabilidade e mentalidade de crescimento — adoraria me conectar e fazer parte da sua jornada. Vamos construir algo significativo juntos."
   }
+}

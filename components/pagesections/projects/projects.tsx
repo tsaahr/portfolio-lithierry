@@ -1,29 +1,34 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
-
-const projects = [
-  {
-    title: 'Loja e Lar',
-    url: 'https://loja-e-lar.vercel.app',
-    description: 'Personal e-commerce built with Next.js, Tailwind CSS, Supabase, and TypeScript.',
-  },
-  {
-    title: 'Gaveta de Mulher',
-    url: 'https://gaveta-de-mulher.vercel.app',
-    description: 'Collaborative project using Next.js and Tailwind CSS.',
-  },
-  {
-    title: 'Sabor e Arte',
-    url: 'https://sabor-e-arte-mauve.vercel.app',
-    description: 'Restaurant website built with Next.js and Tailwind CSS.',
-  },
-]
+import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Projects() {
+  const { t, lang } = useLanguage(); // Pegando o idioma e a função de tradução
+
+  const projects = [
+    {
+      title: t.projects.list[0].title,
+      url: 'https://loja-e-lar.vercel.app',
+      description: t.projects.list[0].description,
+    },
+    {
+      title: t.projects.list[1].title,
+      url: 'https://gaveta-de-mulher.vercel.app',
+      description: t.projects.list[1].description,
+    },
+    {
+      title: t.projects.list[2].title,
+      url: 'https://sabor-e-arte-mauve.vercel.app',
+      description: t.projects.list[2].description,
+    },
+  ];
+
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-6 py-20 text-white">
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">Projects</h2>
+    <section key={lang} className="min-h-screen flex flex-col justify-center items-center px-6 py-20 text-white">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-purple-400 text-center">
+        {t.projects.title}
+      </h2>
 
       <div className="grid gap-8 md:grid-cols-2 w-full max-w-5xl">
         {projects.map((project) => (
@@ -41,5 +46,5 @@ export default function Projects() {
         ))}
       </div>
     </section>
-  )
+  );
 }

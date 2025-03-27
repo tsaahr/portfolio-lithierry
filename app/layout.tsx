@@ -1,7 +1,8 @@
 import "./globals.css";
 import Header from "@/components/header/Header";
 import type { Metadata } from "next";
-import { LanguageProvider } from "@/context/LanguageContext"; // <-- Importando o contexto
+import { LanguageProvider } from "@/context/LanguageContext";
+import { useTranslations } from 'next-intl';
 
 export const metadata: Metadata = {
   title: "Portfólio | Lithierry.dev",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
 
         <div className="relative z-10">
+          
           <LanguageProvider> {}
             <Header />
             <main>{children}</main>
