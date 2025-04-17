@@ -10,81 +10,83 @@
   "hero": {
     "greeting": "Hello!",
     "intro": "I am",
-    "fullstack": "Full-stack Developer",
+    "fullstack": "Ruby on Rails Developer",
     "button": "Let's Talk",
-    "imageAlt": "Illustration of a developer"
+    "imageAlt": "Illustration of a Ruby developer"
   },
   "projects": {
     "title": "Projects",
     "list": [
       {
-        "title": "Loja e Lar",
-        "description": "Personal e-commerce built with Next.js, Tailwind CSS, Supabase, and TypeScript."
+        "title": "Task Manager App",
+        "description": "Full-featured web app built with Ruby on Rails, including user authentication, task CRUD, and deployment on Render."
       },
       {
-        "title": "Gaveta de Mulher",
-        "description": "Collaborative project using Next.js and Tailwind CSS."
+        "title": "Booking System",
+        "description": "Focused on data modeling, this project allows users to book time slots. Built with Rails, Devise, and PostgreSQL."
       },
       {
-        "title": "Sabor e Arte",
-        "description": "Restaurant website developed with Next.js and Tailwind CSS."
+        "title": "Books Dashboard",
+        "description": "Admin system for managing a book catalog with login, filtering, and external API integration."
       }
     ]
   },
   "services": {
-    "title": "What I Can Do for You",
+    "title": "What I Develop",
     "list": [
       {
-        "title": "Custom Landing Pages",
-        "description": "Unique designs focused on conversion and strong visual identity."
+        "title": "Web Applications with Ruby on Rails",
+        "description": "Robust back-end solutions with real-world features, data modeling, and user authentication."
       },
       {
-        "title": "Business Websites",
-        "description": "Complete online presence for companies, local businesses, and freelancers."
+        "title": "Admin Dashboards",
+        "description": "Internal tools and admin panels with CRUD, permissions, and secure access."
       },
       {
-        "title": "Professional Portfolios",
-        "description": "Modern portfolios to showcase your projects and skills effectively."
+        "title": "API Integration",
+        "description": "Consume or build RESTful APIs with Ruby on Rails and JSON."
       },
       {
-        "title": "Blogs & Content Pages",
-        "description": "Optimized templates for publishing articles, news, and more."
+        "title": "User Authentication",
+        "description": "Secure login systems using Devise, with role management and session handling."
       },
       {
-        "title": "Responsive & High Performance",
-        "description": "Websites that work perfectly on all devices with fast loading speeds."
+        "title": "Clean Code & Best Practices",
+        "description": "Clean, maintainable, and well-structured code following Ruby community standards."
       },
       {
-        "title": "Form Integration",
-        "description": "Connect contact forms to email, WhatsApp, or third-party services."
+        "title": "Deploy & Version Control",
+        "description": "Deployments on Render or Heroku, with Git versioning and GitHub workflows."
       }
     ]
   },
   "skills": {
     "title": "Skills",
-    "description": "A combination of technical knowledge and interpersonal skills that allow me to create, communicate, and collaborate effectively.",
+    "description": "Technologies and strengths I apply to build scalable, maintainable, and impactful applications.",
     "softSkills": {
       "title": "Soft Skills",
       "list": [
-        "Creative Thinking",
-        "Team Collaboration",
+        "Logical Thinking",
         "Problem Solving",
-        "Adaptability"
+        "Clear Communication",
+        "Continuous Learning"
       ]
     },
     "hardSkills": {
       "title": "Hard Skills",
       "list": [
-        "JavaScript / TypeScript",
-        "Tailwind CSS / UI Design",
-        "React / Next.js",
-        "Supabase / PostgreSQL"
+        "Ruby / Ruby on Rails",
+        "PostgreSQL / Active Record",
+        "Devise / Authentication",
+        "Git / GitHub / Version Control",
+        "REST APIs / JSON",
+        "RSpec / Automated Testing"
       ]
     }
   },
   "about": {
     "title": "About",
-    "text": "From a young age, I’ve always been curious about how things work. That curiosity has followed me throughout life and eventually led me to discover my place in technology.\n\nI started learning programming on my own — experimenting, breaking things, and rebuilding. Even though I haven't worked professionally yet, I’ve already participated in real projects, like developing a full e-commerce platform and collaborating on websites for others. For me, each line of code is a way to bring ideas to life and solve real problems creatively.\n\nI’m driven by purpose and see tech as a tool to positively impact lives. I love the freedom of creating from scratch, learning something new every day, and constantly evolving.\n\nI’m currently studying Systems Analysis and Development and diving deeper into web development with React/Next.js, while also exploring the Salesforce ecosystem. I balance my routine between studies, work, personal projects, and preparing for an exchange experience in Ireland — where I hope to grow both personally and professionally.\n\nI'm actively looking for my first opportunity in tech — ready to learn, collaborate, and deliver with responsibility. I believe that more than just mastering tools, what truly matters is the will to grow, the ability to communicate, and the openness to build things together.\n\nIf you’re looking for a developer with clean code, adaptability, and a growth mindset — I’d love to connect and be part of your journey. Let’s build something meaningful together."
+    "text": "I'm a developer focused on Ruby on Rails, passionate about building real-world web applications that solve problems.\n\nI started with front-end but found my true passion in the Ruby ecosystem. Since then, I’ve been specializing in back-end development, studying Rails, data modeling, and API creation.\n\nEven early in my career, I’ve built complete personal projects with authentication, integrations, and deployment. I always strive to write clean code, communicate well, and learn fast. I value simplicity, clarity, and delivering real value.\n\nMy current focus is to grow as a Ruby developer, contribute to meaningful projects, and pursue opportunities in collaborative environments — including remote international teams.\n\nIf you’re looking for someone committed, growth-minded, and ready to make an impact, I’d love to connect."
   },
   "contact": {
     "title": "Contact",
@@ -97,6 +99,6 @@
     "error": "Something went wrong. Please try again.",
     "whatsappPrompt": "Prefer WhatsApp?",
     "whatsappButton": "Talk via WhatsApp",
-    "whatsappText": "Hello, Lithierry! I saw your portfolio and I'm interested in your work."
+    "whatsappText": "Hi Lithierry! I saw your Ruby portfolio and I'd love to connect with you."
   }
 }

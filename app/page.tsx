@@ -15,10 +15,10 @@ export default function HomePage() {
         <div className="separator" />
       </section>
 
-      <section id="projects" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
+      {/*<section id="projects" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Projects />
         <div className="separator" />
-      </section>
+      </section>*/}
 
       <section id="services" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <Services />
@@ -32,11 +32,6 @@ export default function HomePage() {
 
       <section id="about" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
         <AboutPage />
-        <div className="separator" />
-      </section>
-
-      <section id="contact" className="relative group transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1">
-        <ContactSection />
       </section>
     </>
   );
