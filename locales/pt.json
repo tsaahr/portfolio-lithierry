@@ -18,16 +18,16 @@
     "title": "Projetos",
     "list": [
       {
-        "title": "App de Tarefas",
-        "description": "Aplicação completa com Ruby on Rails, autenticação de usuários, CRUD de tarefas e deploy no Render."
+        "title": "",
+        "description": ""
       },
       {
-        "title": "Sistema de Reservas",
-        "description": "Projeto com foco em modelagem de dados, onde usuários podem reservar horários. Criado com Rails, Devise e PostgreSQL."
+        "title": "",
+        "description": ""
       },
       {
-        "title": "Dashboard de Livros",
-        "description": "Sistema de administração para cadastro de livros, com login de admin, listagem, filtros e integração com API externa."
+        "title": "",
+        "description": ""
       }
     ]
   },

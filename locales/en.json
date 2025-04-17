@@ -18,16 +18,16 @@
     "title": "Projects",
     "list": [
       {
-        "title": "Task Manager App",
-        "description": "Full-featured web app built with Ruby on Rails, including user authentication, task CRUD, and deployment on Render."
+        "title": "",
+        "description": ""
       },
       {
-        "title": "Booking System",
-        "description": "Focused on data modeling, this project allows users to book time slots. Built with Rails, Devise, and PostgreSQL."
+        "title": "",
+        "description": ""
       },
       {
-        "title": "Books Dashboard",
-        "description": "Admin system for managing a book catalog with login, filtering, and external API integration."
+        "title": "",
+        "description": ""
       }
     ]
   },
